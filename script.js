@@ -514,7 +514,7 @@ function initSwipeNavigation() {
     let currentTabIndex = 0;
     
     // タブの順序を定義
-    const tabOrder = ['about', 'gallery'];
+    const tabOrder = ['about', 'licenses', 'gallery'];
     
     tabContent.addEventListener('touchstart', function(e) {
         startX = e.touches[0].clientX;
