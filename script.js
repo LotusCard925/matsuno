@@ -121,16 +121,17 @@ function initSocialLinks() {
 function showContactInfo() {
     const contactInfo = `
 連絡先情報:
-📧 Email: coro1273@gmail.com
-📷 Instagram: @karinrinrin__
-💼 LinkedIn: http://linkedin.com/in/karinrinrin
+📧 Email: r_matsuno0728@yahoo.co.jp
+📷 Instagram: @matsu_ryuuuu
+💬 LINE: 友だち追加
+📷 Choice国分中央: @choice_kokubuchuo
 
-東洋大学
-国際学部グローバルイノベーション学科
-LinkedIn Student Club 4期生
+CHOICE 国分中央店
+代表
+経営理学療法士
     `.trim();
     
-    createCustomModal('小林果凛 - 連絡先情報', contactInfo);
+    createCustomModal('松野竜工 - 連絡先情報', contactInfo);
 }
 
 // カスタムモーダル作成
@@ -172,11 +173,11 @@ function createCustomModal(title, content) {
     `;
 
     modalContent.innerHTML = `
-        <h3 style="color: #FF6B35; margin-bottom: 20px; font-size: 24px;">${title}</h3>
+        <h3 style="color: #FFD700; margin-bottom: 20px; font-size: 24px;">${title}</h3>
         <div style="white-space: pre-line; line-height: 1.8; color: #333; margin-bottom: 30px;">${content}</div>
         <button onclick="this.closest('.custom-modal').remove()" 
-                style="background: linear-gradient(135deg, #FF8C42, #FF6B35); color: white; border: none; padding: 12px 24px; 
-                       border-radius: 12px; cursor: pointer; font-weight: 600; box-shadow: 0 4px 12px rgba(255, 140, 66, 0.3);">
+                style="background: linear-gradient(135deg, #FFD700, #E6C200); color: white; border: none; padding: 12px 24px; 
+                       border-radius: 12px; cursor: pointer; font-weight: 600; box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);">
             閉じる
         </button>
     `;
@@ -265,7 +266,7 @@ async function downloadContactFromModal() {
         // プロフィール画像をBase64で取得（エラーが発生しても続行）
         let profileImageBase64 = '';
         try {
-            profileImageBase64 = await getImageAsBase64('IMG_5777.jpeg');
+            profileImageBase64 = await getImageAsBase64('IMG_6025.jpeg');
         } catch (error) {
             console.log('画像取得エラー（続行）:', error);
         }
@@ -273,15 +274,15 @@ async function downloadContactFromModal() {
         // vCardを作成
         let vCardData = `BEGIN:VCARD
 VERSION:3.0
-FN:小林果凛
-N:小林;果凛;;;
-ORG:東洋大学 国際学部グローバルイノベーション学科
-TITLE:LinkedIn Student Club 4期生
-EMAIL;TYPE=INTERNET;TYPE=WORK:coro1273@gmail.com
-URL:https://karin-lotuscard.vercel.app
-URL;TYPE=LinkedIn:http://linkedin.com/in/karinrinrin
-URL;TYPE=Instagram:https://www.instagram.com/karinrinrin__
-NOTE:"海外で働く"を夢から現実へ\\n1年間のアメリカ留学\\n株式会社recriで長期インターン中\\nダンスサークルD-mc所属`;
+FN:松野竜工
+N:松野;竜工;;;
+ORG:CHOICE 国分中央店
+TITLE:代表
+EMAIL;TYPE=INTERNET;TYPE=WORK:r_matsuno0728@yahoo.co.jp
+URL;TYPE=Instagram:https://www.instagram.com/matsu_ryuuuu?igsh=MXZ1NHdyY2M4ZGd1Zg%3D%3D&utm_source=qr
+URL;TYPE=LINE:https://line.me/ti/p/oyy235pM-t
+URL;TYPE=Instagram:https://www.instagram.com/choice_kokubuchuo?igsh=anZnMjJrYXV1bTUw&utm_source=qr
+NOTE:経営理学療法士\\n・整体事業\\n・健康経営事業\\n・イベント制作事業\\n・花事業\\n・農業\\n(公益)日本理学療法士協会\\n日本運動器理学療法学会\\n日本スポーツ理学療法学会`;
 
         // プロフィール画像がある場合のみ追加
         if (profileImageBase64 && profileImageBase64.length > 0) {
@@ -298,7 +299,7 @@ END:VCARD`;
         
         const link = document.createElement('a');
         link.href = url;
-        link.download = 'Karin_Kobayashi.vcf'; // 小林果凛のファイル名
+        link.download = 'Matsuno_Ryuko.vcf'; // 松野竜工のファイル名
         link.style.display = 'none';
         document.body.appendChild(link);
         link.click();
@@ -341,14 +342,14 @@ function showToast(message) {
         bottom: 20px;
         left: 50%;
         transform: translateX(-50%);
-        background: linear-gradient(135deg, #FF8C42, #FF6B35);
+        background: linear-gradient(135deg, #FFD700, #E6C200);
         color: white;
         padding: 12px 24px;
         border-radius: 16px;
         font-weight: 600;
         z-index: 1001;
         animation: slideUp 0.3s ease;
-        box-shadow: 0 4px 12px rgba(255, 140, 66, 0.3);
+        box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
     `;
     toast.textContent = message;
     
@@ -512,7 +513,7 @@ function initSwipeNavigation() {
     let currentTabIndex = 0;
     
     // タブの順序を定義
-    const tabOrder = ['about', 'activities', 'gallery'];
+    const tabOrder = ['about', 'gallery'];
     
     tabContent.addEventListener('touchstart', function(e) {
         startX = e.touches[0].clientX;
@@ -701,9 +702,9 @@ function showEditInstructions() {
     const instructions = document.createElement('div');
     instructions.id = 'edit-instructions';
     instructions.innerHTML = `
-        <div style="position: fixed; top: 20px; right: 20px; background: rgba(255, 107, 53, 0.9); color: white; padding: 15px; border-radius: 10px; z-index: 1000; max-width: 300px;">
+        <div style="position: fixed; top: 20px; right: 20px; background: rgba(255, 215, 0, 0.9); color: white; padding: 15px; border-radius: 10px; z-index: 1000; max-width: 300px;">
             <h4>編集モード</h4>
-            <p>• オレンジの枠線の要素をクリックして編集</p>
+            <p>• 金色の枠線の要素をクリックして編集</p>
             <p>• 変更後は「保存」ボタンをクリック</p>
             <p>• 編集をキャンセルする場合はページを再読み込み</p>
         </div>

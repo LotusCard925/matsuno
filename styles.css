@@ -56,7 +56,7 @@ body {
     margin: 0 auto;
     background: rgba(10, 22, 40, 0.85);
     backdrop-filter: blur(25px);
-    border: 1px solid rgba(255, 140, 66, 0.3);
+    border: 1px solid rgba(255, 215, 0, 0.3);
     border-radius: 32px;
     min-height: 100vh;
     position: relative;
@@ -73,9 +73,9 @@ body {
 .status-dot {
     width: 8px;
     height: 8px;
-    background: #FF8C42;
+    background: #FFD700;
     border-radius: 50%;
-    box-shadow: 0 0 15px rgba(255, 140, 66, 0.6);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.8), 0 0 40px rgba(255, 215, 0, 0.4);
 }
 
 /* バナー */
@@ -90,10 +90,10 @@ body {
 .banner-image {
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(255, 140, 66, 0.2), rgba(255, 179, 102, 0.15));
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.2), rgba(230, 194, 0, 0.15));
     position: relative;
     overflow: hidden;
-    border: 1px solid rgba(255, 140, 66, 0.3);
+    border: 1px solid rgba(255, 215, 0, 0.3);
 }
 
 .banner-bg-image {
@@ -127,12 +127,12 @@ body {
     width: 150px;
     height: 150px;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 240, 220, 0.9));
-    border: 3px solid rgba(255, 140, 66, 0.4);
+    border: 3px solid rgba(255, 215, 0, 0.4);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 8px 24px rgba(255, 140, 66, 0.2), 0 0 0 4px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 24px rgba(255, 215, 0, 0.2), 0 0 0 4px rgba(255, 255, 255, 0.5);
     position: relative;
     margin-bottom: 10px;
     backdrop-filter: blur(10px);
@@ -166,22 +166,22 @@ body {
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid rgba(255, 140, 66, 0.3);
+    border: 3px solid rgba(255, 215, 0, 0.3);
     transition: all 0.3s ease;
 }
 
 .profile-image:hover {
     transform: scale(1.05);
-    border-color: rgba(255, 140, 66, 0.6);
-    box-shadow: 0 8px 20px rgba(255, 140, 66, 0.3);
+    border-color: rgba(255, 215, 0, 0.6);
+    box-shadow: 0 8px 20px rgba(255, 215, 0, 0.5), 0 0 25px rgba(255, 215, 0, 0.3);
 }
 
 .profile-name {
     font-size: 36px;
     font-weight: 600;
-    color: #FF8C42;
+    color: #FFD700;
     text-align: center;
-    text-shadow: 0 2px 4px rgba(255, 140, 66, 0.4);
+    text-shadow: 0 2px 4px rgba(255, 215, 0, 0.6), 0 0 10px rgba(255, 215, 0, 0.4);
     margin-bottom: 12px;
     letter-spacing: 1px;
 }
@@ -235,12 +235,12 @@ body {
 
 .tag {
     background: rgba(30, 58, 95, 0.4);
-    color: #FF8C42;
+    color: #FFD700;
     padding: 8px 16px;
     border-radius: 24px;
     font-size: 14px;
     font-weight: 500;
-    border: 1px solid rgba(255, 140, 66, 0.3);
+    border: 1px solid rgba(255, 215, 0, 0.3);
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
@@ -281,8 +281,8 @@ body {
 
 .btn-secondary {
     background: rgba(30, 58, 95, 0.4);
-    color: #FF8C42;
-    border: 1px solid rgba(255, 140, 66, 0.4);
+    color: #FFD700;
+    border: 1px solid rgba(255, 215, 0, 0.4);
     padding: 16px 24px;
     border-radius: 16px;
     font-size: 16px;
@@ -299,10 +299,10 @@ body {
 }
 
 .btn-secondary:hover {
-    background: rgba(255, 140, 66, 0.3);
-    border-color: rgba(255, 140, 66, 0.6);
+    background: rgba(255, 215, 0, 0.3);
+    border-color: rgba(255, 215, 0, 0.6);
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(255, 140, 66, 0.4);
+    box-shadow: 0 6px 20px rgba(255, 215, 0, 0.6), 0 0 30px rgba(255, 215, 0, 0.3);
 }
 
 /* ソーシャルリンク */
@@ -315,7 +315,7 @@ body {
     align-items: center;
     padding: 16px;
     background: rgba(30, 58, 95, 0.4);
-    border: 1px solid rgba(255, 140, 66, 0.3);
+    border: 1px solid rgba(255, 215, 0, 0.3);
     border-radius: 20px;
     margin-bottom: 12px;
     text-decoration: none;
@@ -328,9 +328,9 @@ body {
 
 .social-link:hover {
     background: rgba(30, 58, 95, 0.6);
-    border-color: rgba(255, 140, 66, 0.5);
+    border-color: rgba(255, 215, 0, 0.5);
     transform: translateX(4px);
-    box-shadow: 0 4px 15px rgba(255, 140, 66, 0.3);
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.5), 0 0 20px rgba(255, 215, 0, 0.2);
 }
 
 .social-icon {
@@ -363,7 +363,7 @@ body {
 }
 
 .social-icon.email {
-    background: linear-gradient(135deg, #FF8C42, #FF6B35);
+    background: linear-gradient(135deg, #FFD700, #E6C200);
 }
 
 .social-info {
@@ -383,7 +383,7 @@ body {
 }
 
 .social-arrow {
-    color: #FF8C42;
+    color: #FFD700;
     font-size: 14px;
 }
 
@@ -401,8 +401,8 @@ body {
 
 .tab-btn {
     background: rgba(30, 58, 95, 0.4);
-    color: #FF8C42;
-    border: 1px solid rgba(255, 140, 66, 0.3);
+    color: #FFD700;
+    border: 1px solid rgba(255, 215, 0, 0.3);
     padding: 10px 16px;
     border-radius: 24px;
     font-size: 14px;
@@ -415,18 +415,18 @@ body {
 }
 
 .tab-btn.active {
-    background: rgba(255, 140, 66, 0.3);
+    background: rgba(255, 215, 0, 0.3);
     color: #ffffff;
-    border-color: rgba(255, 140, 66, 0.6);
-    box-shadow: 0 6px 20px rgba(255, 140, 66, 0.4);
+    border-color: rgba(255, 215, 0, 0.6);
+    box-shadow: 0 6px 20px rgba(255, 215, 0, 0.6), 0 0 30px rgba(255, 215, 0, 0.3);
     transform: translateY(-1px);
 }
 
 .tab-btn:hover {
     background: rgba(30, 58, 95, 0.6);
-    border-color: rgba(255, 140, 66, 0.5);
+    border-color: rgba(255, 215, 0, 0.5);
     transform: translateY(-1px);
-    box-shadow: 0 4px 15px rgba(255, 140, 66, 0.3);
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.5), 0 0 20px rgba(255, 215, 0, 0.2);
 }
 
 .tab-content {
@@ -438,7 +438,7 @@ body {
     padding: 20px;
     background: rgba(30, 58, 95, 0.3);
     border-radius: 24px;
-    border: 1px solid rgba(255, 140, 66, 0.2);
+    border: 1px solid rgba(255, 215, 0, 0.2);
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
@@ -449,7 +449,7 @@ body {
 }
 
 .tab-panel h3 {
-    color: #FF8C42;
+    color: #FFD700;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -466,9 +466,11 @@ body {
 /* ギャラリー */
 .gallery-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px 0;
+    gap: 20px;
 }
 
 .gallery-image {
@@ -482,7 +484,7 @@ body {
 
 .gallery-image:hover {
     transform: scale(1.02);
-    box-shadow: 0 12px 32px rgba(255, 140, 66, 0.3);
+    box-shadow: 0 12px 32px rgba(255, 215, 0, 0.3);
 }
 
 /* 活動・実績アイテム */
@@ -499,16 +501,16 @@ body {
     background: rgba(30, 58, 95, 0.4);
     border-radius: 20px;
     margin-bottom: 12px;
-    border: 1px solid rgba(255, 140, 66, 0.3);
+    border: 1px solid rgba(255, 215, 0, 0.3);
     transition: all 0.3s ease;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .activity-item:hover, .achievement-item:hover {
     background: rgba(30, 58, 95, 0.6);
-    border-color: rgba(255, 140, 66, 0.5);
+    border-color: rgba(255, 215, 0, 0.5);
     transform: translateX(4px);
-    box-shadow: 0 4px 12px rgba(255, 140, 66, 0.3);
+    box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
 }
 
 .activity-item i, .achievement-item i {
@@ -520,9 +522,9 @@ body {
     justify-content: center;
     margin-right: 15px;
     font-size: 16px;
-    color: #FF8C42;
-    background: rgba(255, 140, 66, 0.2);
-    border: 1px solid rgba(255, 140, 66, 0.4);
+    color: #FFD700;
+    background: rgba(255, 215, 0, 0.2);
+    border: 1px solid rgba(255, 215, 0, 0.4);
     flex-shrink: 0;
     min-width: 40px;
     min-height: 40px;
@@ -611,8 +613,8 @@ body {
     .profile-name {
         font-size: 28px;
         font-weight: 600;
-        color: #FF6B35;
-        text-shadow: 0 2px 4px rgba(255, 107, 53, 0.2);
+        color: #E6C200;
+        text-shadow: 0 2px 4px rgba(230, 194, 0, 0.2);
     }
     
     .catchphrase {
@@ -716,8 +718,8 @@ body {
     .profile-name {
         font-size: 32px;
         font-weight: 600;
-        color: #FF6B35;
-        text-shadow: 0 2px 4px rgba(255, 107, 53, 0.2);
+        color: #E6C200;
+        text-shadow: 0 2px 4px rgba(230, 194, 0, 0.2);
     }
     
     .catchphrase {
@@ -788,8 +790,8 @@ body {
     .profile-name {
         font-size: 34px;
         font-weight: 600;
-        color: #FF6B35;
-        text-shadow: 0 2px 4px rgba(255, 107, 53, 0.2);
+        color: #E6C200;
+        text-shadow: 0 2px 4px rgba(230, 194, 0, 0.2);
     }
     
     .catchphrase {
@@ -879,8 +881,8 @@ body {
     .profile-name {
         font-size: 40px;
         font-weight: 600;
-        color: #FF6B35;
-        text-shadow: 0 2px 4px rgba(255, 107, 53, 0.2);
+        color: #E6C200;
+        text-shadow: 0 2px 4px rgba(230, 194, 0, 0.2);
     }
     
     .catchphrase {
@@ -1013,8 +1015,8 @@ body {
 
 .toggle-btn {
     background: rgba(30, 58, 95, 0.4);
-    color: #FF8C42;
-    border: 1px solid rgba(255, 140, 66, 0.3);
+    color: #FFD700;
+    border: 1px solid rgba(255, 215, 0, 0.3);
     padding: 8px 16px;
     border-radius: 24px;
     font-size: 14px;
@@ -1030,10 +1032,10 @@ body {
 }
 
 .toggle-btn:hover {
-    background: rgba(255, 140, 66, 0.3);
-    border-color: rgba(255, 140, 66, 0.5);
+    background: rgba(255, 215, 0, 0.3);
+    border-color: rgba(255, 215, 0, 0.5);
     transform: translateY(-1px);
-    box-shadow: 0 4px 15px rgba(255, 140, 66, 0.4);
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
 }
 
 .toggle-icon {
@@ -1047,7 +1049,7 @@ body {
 .intro-detail {
     margin-top: 20px;
     padding-top: 20px;
-    border-top: 1px solid rgba(255, 140, 66, 0.2);
+    border-top: 1px solid rgba(255, 215, 0, 0.2);
 }
 
 /* フッター */
@@ -1055,7 +1057,7 @@ body {
     text-align: center;
     padding: 20px;
     margin-top: 30px;
-    border-top: 1px solid rgba(255, 140, 66, 0.2);
+    border-top: 1px solid rgba(255, 215, 0, 0.2);
 }
 
 .footer p {
