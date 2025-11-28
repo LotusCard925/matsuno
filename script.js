@@ -279,6 +279,7 @@ N:松野;竜工;;;
 ORG:CHOICE 国分中央店
 TITLE:代表
 EMAIL;TYPE=INTERNET;TYPE=WORK:r_matsuno0728@yahoo.co.jp
+URL:https://matsuno.vercel.app/
 URL;TYPE=Instagram:https://www.instagram.com/matsu_ryuuuu?igsh=MXZ1NHdyY2M4ZGd1Zg%3D%3D&utm_source=qr
 URL;TYPE=LINE:https://line.me/ti/p/oyy235pM-t
 URL;TYPE=Instagram:https://www.instagram.com/choice_kokubuchuo?igsh=anZnMjJrYXV1bTUw&utm_source=qr
