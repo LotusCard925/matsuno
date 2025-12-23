@@ -8,66 +8,16 @@
   "theme_color": "#FFD700",
   "orientation": "portrait",
   "icons": [
-    {
-      "src": "IMG_6025.jpeg",
-      "sizes": "72x72",
-      "type": "image/jpeg",
-      "purpose": "any"
-    },
-    {
-      "src": "IMG_6025.jpeg",
-      "sizes": "96x96",
-      "type": "image/jpeg",
-      "purpose": "any"
-    },
-    {
-      "src": "IMG_6025.jpeg",
-      "sizes": "128x128",
-      "type": "image/jpeg",
-      "purpose": "any"
-    },
-    {
-      "src": "IMG_6025.jpeg",
-      "sizes": "144x144",
-      "type": "image/jpeg",
-      "purpose": "any"
-    },
-    {
-      "src": "IMG_6025.jpeg",
-      "sizes": "152x152",
-      "type": "image/jpeg",
-      "purpose": "any"
-    },
-    {
-      "src": "IMG_6025.jpeg",
-      "sizes": "192x192",
-      "type": "image/jpeg",
-      "purpose": "any"
-    },
-    {
-      "src": "IMG_6025.jpeg",
-      "sizes": "384x384",
-      "type": "image/jpeg",
-      "purpose": "any"
-    },
-    {
-      "src": "IMG_6025.jpeg",
-      "sizes": "512x512",
-      "type": "image/jpeg",
-      "purpose": "any"
-    },
-    {
-      "src": "IMG_6025.jpeg",
-      "sizes": "192x192",
-      "type": "image/jpeg",
-      "purpose": "maskable"
-    },
-    {
-      "src": "IMG_6025.jpeg",
-      "sizes": "512x512",
-      "type": "image/jpeg",
-      "purpose": "maskable"
-    }
+    { "src": "Ryuko image.jpeg", "sizes": "72x72", "type": "image/jpeg", "purpose": "any" },
+    { "src": "Ryuko image.jpeg", "sizes": "96x96", "type": "image/jpeg", "purpose": "any" },
+    { "src": "Ryuko image.jpeg", "sizes": "128x128", "type": "image/jpeg", "purpose": "any" },
+    { "src": "Ryuko image.jpeg", "sizes": "144x144", "type": "image/jpeg", "purpose": "any" },
+    { "src": "Ryuko image.jpeg", "sizes": "152x152", "type": "image/jpeg", "purpose": "any" },
+    { "src": "Ryuko image.jpeg", "sizes": "192x192", "type": "image/jpeg", "purpose": "any" },
+    { "src": "Ryuko image.jpeg", "sizes": "384x384", "type": "image/jpeg", "purpose": "any" },
+    { "src": "Ryuko image.jpeg", "sizes": "512x512", "type": "image/jpeg", "purpose": "any" },
+    { "src": "Ryuko image.jpeg", "sizes": "192x192", "type": "image/jpeg", "purpose": "maskable" },
+    { "src": "Ryuko image.jpeg", "sizes": "512x512", "type": "image/jpeg", "purpose": "maskable" }
   ],
   "categories": ["business", "productivity"],
   "lang": "ja"

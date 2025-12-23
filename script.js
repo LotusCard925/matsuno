@@ -266,7 +266,7 @@ async function downloadContactFromModal() {
         // プロフィール画像をBase64で取得（エラーが発生しても続行）
         let profileImageBase64 = '';
         try {
-            profileImageBase64 = await getImageAsBase64('IMG_6025.jpeg');
+            profileImageBase64 = await getImageAsBase64('Ryuko image.jpeg');
         } catch (error) {
             console.log('画像取得エラー（続行）:', error);
         }
@@ -514,7 +514,7 @@ function initSwipeNavigation() {
     let currentTabIndex = 0;
     
     // タブの順序を定義
-    const tabOrder = ['about', 'licenses', 'gallery'];
+    const tabOrder = ['about', 'business', 'licenses', 'gallery'];
     
     tabContent.addEventListener('touchstart', function(e) {
         startX = e.touches[0].clientX;
