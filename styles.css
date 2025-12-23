@@ -464,8 +464,8 @@ body {
 /* ギャラリー */
 .gallery-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 16px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
     padding: 20px 0;
 }
 
@@ -1047,6 +1047,44 @@ body {
     margin-top: 20px;
     padding-top: 20px;
     border-top: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.career-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1.8;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.career-list li {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    column-gap: 12px;
+    align-items: start;
+}
+
+.career-date {
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.career-body {
+    line-height: 1.6;
+}
+
+@media (max-width: 480px) {
+    .career-list li {
+        grid-template-columns: 98px 1fr;
+        column-gap: 8px;
+    }
+    
+    .career-body {
+        font-size: 14px;
+        line-height: 1.5;
+    }
 }
 
 /* フッター */
